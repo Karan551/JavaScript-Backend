@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "A Backend Project with JavaScript.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
-  "author": "Karan",
-  "license": "ISC"
+  "author": "Master",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
 }
